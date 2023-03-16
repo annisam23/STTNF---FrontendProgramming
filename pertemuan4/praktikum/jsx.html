@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSX</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!--
+        Menambahkan script untuk react
+        yang pertama untuk react
+        yang kedua untuk reactDOM
+    -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script> 
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!--script untuk jsx babel-->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!--menggunakan type = babel untuk mengubah dari tag html menjadi
+        javaScript agar bisa terbaca-->
+    <script type="text/babel">
+
+        //membuat component = function yang mengembalikan nilai HTML
+        // penamaan component HARUS dimulai dengan huruf kapital
+        function Hello(){
+            const nama = "Annisa Maulida Rahma";
+
+            return (
+            <div>
+                <h1>Hello {nama}</h1>
+                <h2>0110221070</h2>
+                <p>saya adalah.....</p>
+            </div>);
+        }
+
+        //ambil root element
+        //menggunakan DOM yaitu = getElementById
+        const rootElement = document.getElementById("root");
+
+        //buat root react
+        const root = ReactDOM.createRoot(rootElement);
+
+        //merender componet Hello
+        root.render(<Hello />);
+    </script>
+</body>
+</html>
