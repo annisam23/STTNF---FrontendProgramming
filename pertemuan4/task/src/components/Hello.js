@@ -1,4 +1,4 @@
-function Hello(props){
+const Hello = (props) => {
     return (
     <div>
         <h4>Hai {props.nama}</h4>

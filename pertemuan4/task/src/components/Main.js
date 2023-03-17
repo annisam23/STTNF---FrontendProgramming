@@ -1,5 +1,5 @@
 import Hello from "./Hello";
-function Main(){
+const Main = ()=> {
     return (
         <main>
             <Hello nama="Annisa Maulida" jurusan="informatika" nim="0110221070"/>
