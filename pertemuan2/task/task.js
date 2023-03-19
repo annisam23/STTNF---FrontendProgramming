@@ -48,12 +48,8 @@ const all = () => {
  * Hint: Gunakan method push.
  * Note: Ubah function menggunakan arrow function.
  */
-const store = () => {
-    users.push({
-        name: "Annisa",
-        age : 20,
-        major:"informatics",
-    })
+const store = (user) => {
+    users.push(user)
 }
 
 /**
