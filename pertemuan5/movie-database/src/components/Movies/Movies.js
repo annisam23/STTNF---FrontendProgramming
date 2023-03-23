@@ -32,7 +32,48 @@ const Movies = () =>{
                         <h3 className={styles.movie__title}>Movie Title</h3>
                         <p className={styles.movie__date}>Date Title</p>
                     </div>
-
+                    <div className={styles.movie}>
+                        <img className={styles.movie__image}
+                        src="https://picsum.photos/300/400"></img>
+                        <h3 className={styles.movie__title}>Movie Title</h3>
+                        <p className={styles.movie__date}>Date Title</p>
+                    </div>
+                    <div className={styles.movie}>
+                        <img className={styles.movie__image}
+                        src="https://picsum.photos/300/400"></img>
+                        <h3 className={styles.movie__title}>Movie Title</h3>
+                        <p className={styles.movie__date}>Date Title</p>
+                    </div>
+                    <div className={styles.movie}>
+                        <img className={styles.movie__image}
+                        src="https://picsum.photos/300/400"></img>
+                        <h3 className={styles.movie__title}>Movie Title</h3>
+                        <p className={styles.movie__date}>Date Title</p>
+                    </div>
+                    <div className={styles.movie}>
+                        <img className={styles.movie__image}
+                        src="https://picsum.photos/300/400"></img>
+                        <h3 className={styles.movie__title}>Movie Title</h3>
+                        <p className={styles.movie__date}>Date Title</p>
+                    </div>
+                    <div className={styles.movie}>
+                        <img className={styles.movie__image}
+                        src="https://picsum.photos/300/400"></img>
+                        <h3 className={styles.movie__title}>Movie Title</h3>
+                        <p className={styles.movie__date}>Date Title</p>
+                    </div>
+                    <div className={styles.movie}>
+                        <img className={styles.movie__image}
+                        src="https://picsum.photos/300/400"></img>
+                        <h3 className={styles.movie__title}>Movie Title</h3>
+                        <p className={styles.movie__date}>Date Title</p>
+                    </div>
+                    <div className={styles.movie}>
+                        <img className={styles.movie__image}
+                        src="https://picsum.photos/300/400"></img>
+                        <h3 className={styles.movie__title}>Movie Title</h3>
+                        <p className={styles.movie__date}>Date Title</p>
+                    </div>
                 </div>
             </section>
         </div>
