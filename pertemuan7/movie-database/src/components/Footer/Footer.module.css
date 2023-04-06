@@ -1,0 +1,33 @@
+/*small screen*/
+.container{
+    background-color: #B696CF;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.linkedin{
+    color: #fff;
+}
+.linkedin:hover{
+    color: #118AB2;
+}
+.linkedin:active{
+    color: #0F172A;
+}
+.footer__title{
+    margin-bottom: 1rem;
+}
+
+.footer__author{
+    margin-bottom: 1rem;
+}
+
+/*Medium Screen*/
+@media (min-width:768px){
+
+}
+
+/*Large Screen*/
+@media (min-width:992px){
+
+}
