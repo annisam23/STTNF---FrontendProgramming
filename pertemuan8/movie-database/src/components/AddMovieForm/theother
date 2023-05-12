@@ -1,0 +1,16 @@
+const handleTitle = (e)=> {
+        setTitle(e.target.value)
+    }
+
+    //buat function handle date
+    const handleDate = (e) => {
+        setDate(e.target.value);
+    }
+
+    const handleGambar = (e) => {
+        setGambar(e.target.value)
+    }
+
+    const handleGenre = (e) => {
+        setGenre(e.target.value)
+    }
