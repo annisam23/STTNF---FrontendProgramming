@@ -51,6 +51,9 @@ label{
     margin-top: 3rem;
 }
 
+.form__label{
+    display: block;
+}
 /*Medium screen*/
 @media (min-width:768px){
 
